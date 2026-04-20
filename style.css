@@ -22,15 +22,17 @@ a {
 }
 
 a:hover {
-
+background-color: ForestGreen;
 }
 
 .one {
-
+  transition-property: background-color;
+  transition-duration: 2s;
 }
 
 .two {
-
+transition-property: background-color;
+transition-duration: 400ms;
 }
 
 .three {
